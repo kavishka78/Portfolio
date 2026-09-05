@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dinujaya Kavishka | Portfolio</title>
+  <link rel="icon" href="college.png" type="image/png">
+  <!-- Google Font: Poppins -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- External Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+</head>
+<body>
+
+  <!-- ============================================
+       Navbar
+       ============================================ -->
+  <header class="navbar">
+    <div class="container nav-container">
+      <a href="./#home" class="logo">Portfolio</a>
+
+      <nav class="nav-menu" id="nav-menu">
+        <ul class="nav-list">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#education" class="nav-link">Education</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Mobile Hamburger Button -->
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ============================================
+       Hero Section
+       ============================================ -->
+  <section id="home" class="hero">
+    <div class="container hero-container">
+      <div class="hero-content">
+        <p class="hero-greeting">Hello, I'm</p>
+        <h1 class="hero-name">Dinujaya Kavishka</h1>
+        <h2 class="hero-title">Undergraduate IT Student | AI Specialist</h2>
+        <div class="hero-buttons">
+          <a href="Dinujaya_Kavishka_CV.pdf" target="_blank" rel="noopener" class="btn btn-primary">CV</a>
+          <a href="#contact" class="btn btn-secondary">Contact Me</a>
+        </div>
+      </div>
+      <img src="DP.jpeg" alt="My Profile Photo" class="profile-img">
+    </div>
+  </section>
+
+  <!-- ============================================
+       About Section
+       ============================================ -->
+  <section id="about" class="about section">
+    <div class="container">
+      <h2 class="section-title fade-in">About Me</h2>
+      <div class="about-content fade-in">
+        <p>
+          I am an undergraduate IT student specializing in <strong>Artificial Intelligence</strong>, with a strong passion for building intelligent systems and solving real-world problems. I have experience in machine learning, web development, and software engineering, and I enjoy creating efficient, user-focused solutions.
+        </p>
+        <div class="interests">
+  <h3>My Interests</h3>
+
+  <div class="interest-tags">
+
+    <span class="tag">Machine Learning</span>
+    <span class="tag">Deep Learning</span>
+    <span class="tag">Artificial Intelligence</span>
+
+    <span class="tag">Data Science</span>
+    <span class="tag">Big Data Analytics</span>
+
+    <span class="tag">Web Development</span>
+    <span class="tag">Full Stack Development</span>
+
+    <span class="tag">Mobile App Development</span>
+
+    <span class="tag">IoT Systems</span>
+    <span class="tag">Arduino Projects</span>
+    <span class="tag">Embedded Systems</span>
+
+    <span class="tag">Problem Solving</span>
+    <span class="tag">Software Engineering</span>
+
+  </div>
+</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       Skills Section
+       ============================================ -->
+<section id="skills" class="skills section">
+  <div class="container">
+    <h2 class="section-title fade-in">Skills & Expertise</h2>
+
+    <div class="skills-grid fade-in">
+
+      <!-- Programming -->
+      <div class="skill-category">
+        <h3>Programming</h3>
+        <div class="skill-item">
+          <span>Python</span>
+          <span>Java</span>
+          <span>JavaScript</span>
+          <span>C++</span>
+        </div>
+      </div>
+
+      <!-- AI / Machine Learning -->
+      <div class="skill-category">
+        <h3>AI / Machine Learning</h3>
+        <div class="skill-item">
+          <span>TensorFlow</span>
+          <span>Scikit-learn</span>
+          <span>NumPy</span>
+          <span>Pandas</span>
+          <span>Data Preprocessing</span>
+          <span>Model Training</span>
+        </div>
+      </div>
+
+      <!-- Data Science -->
+      <div class="skill-category">
+        <h3>Data Science</h3>
+        <div class="skill-item">
+          <span>Data Analysis</span>
+          <span>Data Visualization</span>
+          <span>Matplotlib</span>
+          <span>Exploratory Data Analysis</span>
+        </div>
+      </div>
+
+      <!-- Web Development -->
+      <div class="skill-category">
+        <h3>Web Development</h3>
+        <div class="skill-item">
+          <span>React</span>
+          <span>Node.js</span>
+          <span>Express.js</span>
+          <span>MongoDB</span>
+          <span>HTML5</span>
+          <span>CSS3</span>
+        </div>
+      </div>
+
+      <!-- Mobile App Development -->
+      <div class="skill-category">
+        <h3>Mobile App Development</h3>
+        <div class="skill-item">
+          <span>React Native</span>
+          <span>Flutter (Basics)</span>
+          <span>Android Studio</span>
+          <span>UI Design</span>
+          <span>API Integration</span>
+        </div>
+      </div>
+
+      <!-- IoT / Arduino -->
+      <div class="skill-category">
+        <h3>IoT / Embedded Systems</h3>
+        <div class="skill-item">
+          <span>Arduino</span>
+          <span>Raspberry Pi (Basics)</span>
+          <span>Sensor Integration</span>
+          <span>C Programming (Embedded)</span>
+          <span>IoT Projects</span>
+        </div>
+      </div>
+
+      <!-- Tools -->
+      <div class="skill-category">
+        <h3>Tools & Platforms</h3>
+        <div class="skill-item">
+          <span>Git</span>
+          <span>GitHub</span>
+          <span>Docker</span>
+          <span>VS Code</span>
+          <span>Linux</span>
+        </div>
+      </div>
+
+      <!-- AI Concepts -->
+      <div class="skill-category">
+        <h3>AI Concepts</h3>
+        <div class="skill-item">
+          <span>Machine Learning</span>
+          <span>Deep Learning</span>
+          <span>Neural Networks</span>
+          <span>Classification</span>
+          <span>Regression</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+  <!-- ============================================
+       Projects Section
+       ============================================ -->
+  <section id="projects" class="projects section">
+  <div class="container">
+    <h2 class="section-title fade-in">Projects</h2>
+
+    <div class="projects-grid fade-in">
+
+      <!-- Medical Center System (AI Feature) -->
+      <article class="project-card">
+        <div class="project-header">
+          <h3>Medical Center Management System (AI Enhanced)</h3>
+        </div>
+        <p class="project-desc">
+          A smart hospital management system with AI-based patient prediction, medical report analysis,
+ 	        and automatic summarization. It also includes intelligent doctor channeling and appointment handling
+        	to improve healthcare efficiency and reduce manual workload.
+        </p>
+        <div class="project-tech">
+          <span>Python</span><span>AI/ML</span><span>MongoDB</span><span>Node.js</span>
+        </div>
+        <a href="https://github.com/kavishka78/ncc_project.git" target="_blank" class="project-link">View on GitHub →</a>
+      </article>
+
+      <article class="project-card">
+  <div class="project-header">
+    <h3>Student Depression Prediction System (AI/ML)</h3>
+  </div>
+
+  <p class="project-desc">
+    A machine learning-based system that analyzes student data such as academic performance, stress levels,
+ sleep patterns, and lifestyle factors to predict the risk of depression. The system helps in early 
+identification and awareness support.
+  </p>
+
+  <div class="project-tech">
+    <span>Python</span>
+    <span>Machine Learning</span>
+    <span>Scikit-learn</span>
+    <span>Pandas</span>
+    <span>Data Analysis</span>
+  </div>
+
+  <a href="https://github.com/kavishka78/depression_prediction.git" target="_blank" class="project-link">
+    View on GitHub →
+  </a>
+</article>
+
+      <!-- Campus Food Mobile App -->
+      <article class="project-card">
+        <div class="project-header">
+          <h3>Campus Food Mobile App</h3>
+        </div>
+        <p class="project-desc">
+          A mobile application designed for ordering campus food with a real-time menu system and seamless 
+	        order tracking. The system allows students to browse available food items, place orders efficiently, 
+	        and track order status in real time for a smoother campus dining experience.
+        </p>
+        <div class="project-tech">
+          <span>React Native</span><span>Firebase</span><span>MongoDB</span><span>Node.js</span>
+        </div>
+        <a href="https://github.com/kavishka78/Campus_Bites.git" target="_blank" class="project-link">View on GitHub →</a>
+      </article>
+
+      <!-- Movie Rental Platform -->
+      <article class="project-card">
+        <div class="project-header">
+          <h3>Movie Rental Platform</h3>
+        </div>
+        <p class="project-desc">
+          Web-based movie rental system with user authentication and rental management.
+        </p>
+        <div class="project-tech">
+          <span>React</span><span>Express.js</span><span>MongoDB</span>
+        </div>
+      </article>
+
+      <!-- Reality Show Voting Platform -->
+      <article class="project-card">
+        <div class="project-header">
+          <h3>Reality Show Voting Platform</h3>
+        </div>
+        <p class="project-desc">
+          Online voting system for reality shows with secure vote tracking and real-time results.
+        </p>
+        <div class="project-tech">
+          <span>PHP</span><span>MySQL</span><span>JavaScript</span>
+        </div>
+      </article>
+
+      <!-- IoT Room Temperature Control -->
+      <article class="project-card">
+        <div class="project-header">
+          <h3>IoT Room Temperature Control System</h3>
+        </div>
+        <p class="project-desc">
+          Smart IoT system that monitors and controls room temperature using sensors and automation.
+        </p>
+        <div class="project-tech">
+          <span>Arduino</span><span>IoT</span><span>C Programming</span><span>Sensors</span>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+  <!-- ============================================
+       Education Section
+       ============================================ -->
+  <section id="education" class="education section">
+  <div class="container">
+    <h2 class="section-title fade-in">Education</h2>
+
+    <div class="education-row fade-in">
+
+      <!-- University -->
+      <div class="education-card">
+        <h3>University</h3>
+        <p class="edu-institution">SLIIT</p>
+        <p class="edu-duration">2024 – Present</p>
+        <p class="edu-desc"><strong>
+          BSc (Hons) in IT specialized in Artificial Intelligence.</strong>
+        </p>
+      </div>
+
+      <!-- A/L -->
+<div class="education-card">
+  <h3>Advanced Level</h3>
+  <p class="edu-institution">St.Thomas College Matale</p>
+  <p class="edu-duration">2023</p>
+
+  <ul class="edu-list"><strong>
+    <li>Combined Mathematics</li>
+    <li>Physics</li>
+    <li>information technology</li>
+  </ul></strong>
+</div>
+
+<!-- O/L -->
+<div class="education-card">
+  <h3>Ordinary Level </h3>
+  <p class="edu-institution">St.Thomas College Matale</p>
+  <p class="edu-duration">2020</p>
+
+  <ul class="edu-list"><strong>
+    <li>Mathematics</li>
+    <li>Science</li>
+    <li>English</li>
+    <li>Information Technology</li>
+    <li>Business Studies</li>
+    <li>Music</li>
+    <li>Sinhala</li>
+    <li>Buddhism</li>
+    <li>History</li></strong>
+  </ul>
+</div>
+
+    </div>
+  </div>
+</section>
+
+
+
+  <!-- ============================================
+       Contact Section
+       ============================================ -->
+  <section id="contact" class="contact section">
+    <div class="container">
+      <h2 class="section-title fade-in">Get In Touch</h2>
+      <div class="contact-wrapper fade-in">
+        <div class="contact-info">
+          <p>Feel free to reach out for collaborations, opportunities, or just a friendly chat.</p>
+          <ul class="contact-list">
+            <li><a href="mailto:kavishkastc@gmail.com.com"><img src="icon/email.PNG" alt="Email Icon" class="social-icon"> Email</a></li>
+            <li><a href="https://www.linkedin.com/in/dinujaya-kavishka-bb241937b/" target="_blank" rel="noopener"><img src="icon/linkedin.png" alt="LinkedIn Icon" class="social-icon"> LinkedIn</a></li>
+            <li><a href="https://github.com/kavishka78" target="_blank" rel="noopener"><img src="icon/github.png" alt="GitHub Icon" class="social-icon"> GitHub</a></li>
+            <li><a href="https://web.facebook.com/dinujaya.kavishka" target="_blank" rel="noopener"><img src="icon/facebook.png" alt="Facebook Icon" class="social-icon"> Facebook</a></li>
+            <li><a href="https://www.instagram.com/i_kavishka_d" target="_blank" rel="noopener"><img src="icon/instergram.png" alt="Instagram Icon" class="social-icon"> Instagram</a></li>
+          </ul>
+        </div>
+        <form class="contact-form" id="contact-form" novalidate>
+
+  <!-- Name -->
+  <div class="form-group">
+    <label for="name">Name</label>
+    <input 
+      type="text" 
+      id="name" 
+      name="name" 
+      placeholder="Your name" 
+      required
+    >
+    <span class="error-msg" id="name-error"></span>
+  </div>
+
+  <!-- Email -->
+  <div class="form-group">
+    <label for="email">Email</label>
+    <input 
+      type="email" 
+      id="email" 
+      name="email" 
+      placeholder="your@email.com" 
+      required
+    >
+    <span class="error-msg" id="email-error"></span>
+  </div>
+
+  <!-- Message -->
+  <div class="form-group">
+    <label for="message">Message</label>
+    <textarea 
+      id="message" 
+      name="message" 
+      rows="5" 
+      placeholder="Your message..." 
+      required
+    ></textarea>
+    <span class="error-msg" id="message-error"></span>
+  </div>
+
+  <!-- Button -->
+  <button type="submit" class="btn btn-primary">
+    Send Message
+  </button>
+
+  <!-- Status -->
+  <div class="form-status" id="form-status"></div>
+
+</form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       Footer
+       ============================================ -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> Dinujaya Kavishka. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- External JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
